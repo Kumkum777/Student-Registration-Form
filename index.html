@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>student form</title>
+  </head>
+  <body>
+    <center><h1>Student Registration Form</h1></center>
+    <form action="index.html" method="post">
+      <div class="fdiv">
+        <label for="rollNo">Roll no. :</label>
+        <div class="">
+          <input
+            style="width: 250px"
+            id="rollNo"
+            type="text"
+            name="rollNo"
+            required
+          /><br />
+        </div>
+      </div>
+      <div class="fdiv">
+        <label for="name">Student Name :</label>
+        <div class="">
+          <input
+            style="width: 250px"
+            id="name"
+            type="text"
+            name="name"
+            required
+          />
+        </div>
+        <br />
+      </div>
+      <div class="fdiv">
+        <label for="father">Father's Name :</label>
+        <div class="">
+          <input
+            style="width: 250px"
+            id="father"
+            type="text"
+            name="fathername"
+            required
+          />
+        </div>
+        <br />
+      </div>
+      <div class="fdiv">
+        <label for="mother">Mother's Name :</label>
+        <div class="">
+          <input
+            style="width: 250px"
+            id="mother"
+            type="text"
+            name="mothername"
+            required
+          /><br />
+        </div>
+      </div>
+      <div class="fdiv">
+        <label for="DOB">Date of birth :</label>
+        <div class="">
+          <input id="DOB" type="date" name="DOB" class="date" /><br />
+        </div>
+      </div>
+
+      <div class="fdiv">
+        <label for="mobile">Mobile no. :</label>
+        <div class="">
+          <input
+            style="width: 25px; margin: 3px; margin-left: 10px"
+            id="mobile"
+            type=""
+            name="mobileno"
+            placeholder="+91"
+          />-<input
+            style="width: 190px"
+            id="mobile"
+            type="number"
+            placeholder="your mob.number"
+            required
+          /><br />
+        </div>
+      </div>
+
+      <div class="fdiv">
+        <label for="email">Email id :</label>
+        <div class="">
+          <input
+            style="width: 250px"
+            id="email"
+            type="email"
+            name="email"
+            required
+          /><br />
+        </div>
+      </div>
+
+      <div class="fdiv">
+        <label for="password">Password :</label>
+        <div class="">
+          <input
+            style="width: 250px"
+            id="password"
+            type="password"
+            name="password"
+            required
+          /><br />
+        </div>
+      </div>
+
+      <div class="fdiv">
+        <label for="gender">Gender :</label>
+        <div class="">
+          <label for="gender" class="dept-option">Male:</label>
+          <input id="gender" type="radio" name="choice" />
+          <label for="gender" class="dept-option">Female:</label>
+          <input id="gender" type="radio" name="choice" /><br />
+        </div>
+      </div>
+
+      <div class="fdiv">
+        <label for="dept">Department :</label>
+        <div class="">
+          <label for="dept" class="dept-option">IT</label>
+          <input id="dept" type="checkbox" name="choice" />
+          <label for="dept" class="dept-option">Civil</label>
+          <input id="dept" type="checkbox" name="choice" />
+          <label for="dept" class="dept-option">Mech</label>
+          <input id="dept" type="checkbox" name="choice" />
+          <label for="dept" class="dept-option">ECE</label>
+          <input id="dept" type="checkbox" name="choice" />ECE<br />
+        </div>
+      </div>
+      <div class="fdiv">
+        <label for="father">Course :</label>
+        <div class="">
+          <select
+            style="width: 250px; height: 24px; margin-left: 10px"
+            id="father"
+            type="text"
+            required
+          >
+            <option>--------select current Course--------</option>
+            <option>AI</option>
+            <option>ML</option>
+            <option>WEB TECH</option>
+            <option>FULL STACK</option></select
+          ><br />
+        </div>
+      </div>
+
+      <div class="fdiv">
+        <label for="stdp">Student photo :</label>
+        <div class="">
+          <input style="width: 240px" id="stdp" type="file" name="file" /><br />
+        </div>
+      </div>
+
+      <div class="fdiv">
+        <label for="city">City :</label>
+        <div class="">
+          <input style="width: 250px" id="city" type="text" name="city" />
+        </div>
+      </div>
+
+      <div class="fdiv">
+        <label for="add">Address :</label>
+        <div class="">
+          <textarea
+            style="margin-left: 10px"
+            id="add"
+            rows="5"
+            cols="33"
+            name="textmsg"
+            placeholder=" imp. message"
+          ></textarea>
+        </div>
+      </div>
+      <div class="fdiv">
+        <label for="sub"> </label>
+        <div class="">
+          <button
+            style="width: 170px; height: 28px; margin-left: 10px"
+            id="sub"
+            type="submit"
+            name="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

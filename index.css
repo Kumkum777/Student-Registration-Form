@@ -1,0 +1,68 @@
+body{
+  background:linear-gradient(rgb(1, 22, 40) , rgb(7, 28, 50));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body center h1{
+  color: aliceblue;
+  box-shadow: 0px 0px 12px 2px rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+}
+form{
+  background:linear-gradient(rgb(1, 22, 40) , rgb(7, 28, 50));
+  box-shadow: 0px 0px 12px 2px rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 35px;
+}
+form input {
+  margin: 8px 0px;
+  margin-left: 10px;
+  background-color: rgb(18, 44, 66);
+  border:1.1px solid rgb(233, 246, 255);
+  box-shadow: inset 0px 0px 1.2px 0.2px rgb(2, 113, 192);
+  padding: 4px;
+  color: aliceblue;
+  border-radius:4.5px;
+  outline: none;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form textarea{
+  color: aliceblue;
+  border:1.1px solid rgb(233, 246, 255);
+  background-color: rgb(18, 44, 66);
+  outline: none;
+}
+.dept-option{
+  margin-right: 5px;
+}
+form label{
+  color: aliceblue;
+  width: 190px;
+  margin-right:50px;
+  margin-top:10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fdiv{
+display:flex ;
+flex-direction: row;
+}
+form select{
+  padding: 4px;
+  color: aliceblue;
+  border-radius:4.5px;
+  background-color: rgb(18, 44, 66);
+  outline: none;
+}
+button{
+  padding: 4px;
+  border-radius:4.5px;
+  outline: none;
+  background-color: rgb(24, 72, 114);
+  margin-top: 20px;
+  color: aliceblue;
+  cursor: pointer;
+  
+}
